@@ -1,0 +1,7 @@
+name: MLPClassPack
+version: 0.1
+main: com.ahui.classpack.ClPk
+author: Ahuizotl
+commands:
+    cp:
+        description: Command Base

@@ -1,0 +1,193 @@
+classDataAutoSave: 3600000
+upgrade: false
+fxpTarget: 100
+flightCost: .5
+flightTime: 3600
+overPowerFlying: false
+SignText:
+  Unicorn: [Unicorn]
+  Pegasus: [Pegasus]
+  Earth: [Earth]
+  Alicorn: [Alicorn]
+  Changeling: [Changeling]
+  Dragon: [Dragon]
+  TimberWolf: [TimberWolf]
+  Griffon: [Griffon]
+  Draconequus: [Draconequus]
+  Zebra: [Zebra]
+  Breezy: [Breezy]
+  DiamondDog: [DiamondDog]
+  Ahuizotl: [Ahuizotl]
+  Minotaur: [Minotaur]
+  Thestral: [Thestral]
+  Chimera: [Chimera]
+  SignTextLine: 1 
+Classes:                         # Determine default classValues
+  Unicorn:                       #------------------------------------------------------------------
+    maxMana: 50.0    #'deft 50'  # Starting mana (increases with levels)
+    maxHealth: 20.0  #'deft 20'  # Maximum health as this class (default game value = 20)
+  Zebra:                         #------------------------------------------------------------------
+    maxMana: 50.0    #'deft 50'  # Starting mana (increases with levels)
+    maxHealth: 20.0  #'deft 20'  # Maximum health as this class (default game value = 20)
+  Pegasus:                       #------------------------------------------------------------------
+    maxEnergy: 50.0  #'deft 50'  # Starting energy (increases with levels)
+    maxHealth: 20.0  #'deft 20'  # Maximum health as this class (default game value = 20)
+  Breezy:                        #------------------------------------------------------------------
+    maxEnergy: 30.0  #'deft 30'  # Starting energy (increases with levels)
+    maxHealth: 15.0  #'deft 15'  # Maximum health as this class (default game value = 20)
+  Earth:                         #------------------------------------------------------------------
+    maxEnergy: 50.0  #'deft 50'  # Starting energy (increases with levels)
+    maxHealth: 30.0  #'deft 30'  # Maximum health as this class (default game value = 20)
+  DiamondDog:                    #------------------------------------------------------------------
+    maxEnergy: 75.0  #'deft 75'  # Starting energy (increases with levels)
+    maxHealth: 25.0  #'deft 25'  # Maximum health as this class (default game value = 20)
+    lootBonus: 1     #'deft 1'   # Boolean Loot Bonus? [0/1]
+    lootValues:
+     defaultMultiplier: 3
+     items:
+      - diamond
+      - emerald
+     multipliers:
+       diamond: 3
+       emerald: 3
+  Alicorn:                       #------------------------------------------------------------------
+    maxEnergy: 75.0  #'deft 75'  # Starting energy (increases with levels)
+    maxMana: 75.0    #'deft 75'  # Starting mana (increases with levels)
+    maxHealth: 30.0  #'deft 30'  # Maximum health as this class (default game value = 20)
+  Dragon:                        #------------------------------------------------------------------
+    maxEnergy: 75.0  #'deft 75'  # Starting energy (increases with levels)
+    maxHealth: 30.0  #'deft 30'  # Maximum health as this class (default game value = 20)
+  TimberWolf:                    #------------------------------------------------------------------
+    maxEnergy: 50.0  #'deft 50'  # Starting energy (increases with levels)
+    maxHealth: 15.0  #'deft 15'  # Maximum health as this class (default game value = 20)
+    invisTime: 10    #'deft 10'  # Time to remain invisible while crouched (in seconds)
+    alwaysRun: 1     #'deft 1'   # Boolean increased speed? [0/1]
+  Griffon:                       #------------------------------------------------------------------
+    maxEnergy: 75.0  #'deft 75'  # Starting energy (increases with levels)
+    maxHealth: 30.0  #'deft 30'  # Maximum health as this class (default game value = 20)
+  Draconequus:                   #------------------------------------------------------------------
+    maxEnergy: 75.0  #'deft 75'  # Starting energy (increases with levels)
+    maxMana: 75.0    #'deft 75'  # Starting mana (increases with levels)
+    maxHealth: 30.0  #'deft 30'  # Maximum health as this class (default game value = 20)
+  Minotaur:                       #------------------------------------------------------------------
+    maxEnergy: 50.0  #'deft 50'  # Starting energy (increases with levels)
+    maxHealth: 40.0  #'deft 30'  # Maximum health as this class (default game value = 20)
+  Ahuizotl:                      #------------------------------------------------------------------
+    maxEnergy: 75.0  #'deft 75'  # Starting energy (increases with levels)
+    maxMana: 75.0    #'deft 75'  # Starting mana (increases with levels)
+    maxHealth: 30.0  #'deft 30'  # Maximum health as this class (default game value = 20)
+  Thestral:                      #------------------------------------------------------------------
+    maxEnergy: 50.0  #'deft 50'  # Starting energy (increases with levels)
+    maxHealth: 20.0  #'deft 20'  # Maximum health as this class (default game value = 20)
+    nightVision: 1   #'deft 1'   # Boolean Night Vision? [0/1]
+  Changeling:                    #------------------------------------------------------------------
+   maxEnergy: 50.0   #'deft 50'  # Starting energy (increases with levels)
+   maxMana: 75.0     #'deft 75'  # Starting mana (increases with levels)
+   maxHealth: 25.0   #'deft 25'  # Maximum health as this class (default game value = 20)
+   disguises:
+    default:
+    #  uncomment desired disguises 
+     - Bat
+     - Blaze
+     - CaveSpider
+    # - Chicken
+    # - Cow
+    # - Creeper
+    # - Enderman
+    # - Endermite
+    # - Guardian
+    # - EntityHorse
+    # - IronGolem
+    # - LavaSlime
+    # - Pig
+    # - PigZombie
+    # - Rabbit
+    # - Sheep
+    # - Silverfish
+    # - Skeleton
+    # - Slime
+    # - Snowman
+    # - Spider
+    # - Squid
+    # - Villager
+    # - Witch
+    # - Wolf
+    # - Zombie
+  Chimera:                       #------------------------------------------------------------------
+   maxEnergy: 50.0   #'deft 50'  # Starting energy (increases with levels)
+   maxMana: 75.0     #'deft 75'  # Starting mana (increases with levels)
+   maxHealth: 25.0   #'deft 25'  # Maximum health as this class (default game value = 20)
+   disguises:
+    default:
+    #  uncomment desired disguises 
+     - Bat
+     - Blaze
+     - CaveSpider
+    # - Chicken
+    # - Cow
+    # - Creeper
+    # - Enderman
+    # - Endermite
+    # - Guardian
+    # - EntityHorse
+    # - IronGolem
+    # - LavaSlime
+    # - Pig
+    # - PigZombie
+    # - Rabbit
+    # - Sheep
+    # - Silverfish
+    # - Skeleton
+    # - Slime
+    # - Snowman
+    # - Spider
+    # - Squid
+    # - Villager
+    # - Witch
+    # - Wolf
+    # - Zombie
+Prefixes:
+  Unicorn:
+     default: "[&5U&dn&fi&7c&8o&dr&5n&f]"
+     protector: "[&a&ka&r&6Unicorn&f]"
+     healer: "[&e&ka&r&6Unicorn&f]"
+     illusionist: "[&3&ka&r&6Unicorn&f]"
+     destruction: "[&4&ka&r&6Unicorn&f]"
+     fire: "[&c&ka&r&6Unicorn&f]"
+     ice: "[&b&ka&r&6Unicorn&f]"
+     shadow: "[&7&ka&r&6Unicorn&f]"
+  Pegasus: 
+     default: "[&9P&3e&fg&ba&3s&fu&9s&f]"
+  Breezy: 
+     default: "[&bBreezy&f]"
+  Zebra:
+     default: "[&7Z&8e&7b&8r&7a&f]"
+  Earth: 
+     default: "[&2E&aa&2r&et&6h&f]"
+     miner: "[&7&ka&r&aEarth&f]"
+     farmer: "[&2&ka&r&aEarth&f]"
+     breeder: "[&c&ka&r&aEarth&f]"
+  Alicorn:
+     default: "[&6A&el&fi&7c&bo&3r&9n&f]"
+     corrupter: "[&7&ka&r&eAlicorn&f]"
+     saviour: "[&6&ka&r&eAlicorn&f]"
+  Changeling:
+     default: "[&8C&3h&8a&2n&ag&8eli&an&8g&f]"
+  Dragon:
+     default: "[&6D&4r&ca&4g&8o&6n&f]"
+  TimberWolf:
+     default: "[&aTimberwolf&f]"
+  Griffon:
+     default: "[&8G&6r&ei&6ff&fo&7n&f]"
+  Draconequus:
+     default: "[&cDraconequus&f]"
+  DiamondDog: 
+     default: "[&aDiamond_Dog&f]"
+  Ahuizotl: 
+     default: "[&1Ah&bui&9zo&1t&bl&f]"
+  Thestral: 
+     default: "[&1Thestral&f]"
+  Minotaur: 
+     default: "[&bMinotaur&f]"
+  Chimera:
+     default: "[&aChimera&f]"
